@@ -8,6 +8,7 @@
                     <th scope="col" class="col-4">Nombre</th>
                     <th scope="col">Apellido</th>
                     <th scope="col">Edad</th>
+                    <th scope="col">Tipo de persona</th>
                     <th scope="col">Acciones</th>
                 </tr>
             </thead>
@@ -17,12 +18,15 @@
                     <td>{{name}}</td>
                     <td>{{lastname}}</td>
                     <td>{{age}}</td>
+                    <td>{{tipoPersona}}</td>
                     <td>
                         <div class="btn-group">
                             <a href="/edit/{{id}}" class="btn btn-warning p-2">
-                            <i class="fa-solid fa-pencil"></i></a>
+                                <i class="fa-solid fa-pencil"></i>
+                            </a>
                             <a href="/delete/{{id}}" class="btn btn-danger p-2">
-                            <i class="fa-solid fa-trash"></i></a>
+                                <i class="fa-solid fa-trash"></i>
+                            </a>
                         </div>
                     </td>
                 </tr>
@@ -30,7 +34,7 @@
             </tbody>
             <tfoot>
                 <tr class="table-dark">
-                    <td colspan="4">REGISTRO DE PERSONAS</td>
+                    <td colspan="5">REGISTRO DE PERSONAS</td>
                 </tr>
             </tfoot>
         </table>

@@ -117,8 +117,8 @@ WorkSpace
 
 ### Guias de Project:
 
-1. [Node V.1](<recursos/Node js + express + MySQL_v1.pdf>)
-2. [Node V.2](<recursos/Node js + express + MySQL_v2.pdf>)
+1. [Node JS V.1](<guias/Node js + express + MySQL_v1.pdf>)
+2. [Node JS V.2](<guias/Node js + express + MySQL_v2.pdf>)
 
 ### Recursos:
 

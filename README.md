@@ -5,7 +5,7 @@ Nodemon.
 
 ![alt text](<crud_node_01/src/public/img/Captura desde 2024-08-07 17-02-58.png>)
 
-## Requisitos
+## Requisitos:
 
 -   Node.js (v20.16.0 o superior)
 -   MySQL o MariaDB (v10.4.11 o superior)
@@ -19,7 +19,7 @@ Nodemon.
 git clone https://github.com/AlexVadher/WorkSpace.git
 ```
 
-nota: si no tienes instalado git, puedes descargar el repositorio en formato
+**Nota:** si no tienes instalado git, puedes descargar el repositorio en formato
 zip.
 
 ### 2. Instalar las dependencias
@@ -34,26 +34,26 @@ npm i -D dotenv # para variables de entorno en .env (opcional)
 
 ### 3. Crear la base de datos
 
-#### Crear base de datos Manualmente
+#### Crear base de datos Manualmente:
 
-1.  se debe crear una base de datos en MySQL o MariaDB.
-2.  se debe crear una tabla llamada `empleados` con los siguientes campos:
+1.  Se debe crear una base de datos en MySQL o MariaDB.
+2.  Se debe crear una tabla llamada `empleados` con los siguientes campos:
     -   id (int, autoincremental, primary key)
     -   name (varchar(50))
     -   lastname (varchar(50))
     -   age (int)
     -   tipo_persona_id (int, foreign key)
-3.  se debe crear una tabla llamada `tipo_persona` con los siguientes campos:
+3.  Se debe crear una tabla llamada `tipo_persona` con los siguientes campos:
     -   id (int, autoincremental, primary key)
     -   tipo (varchar(50))
-4.  se debe configurar las variables de entorno en un archivo `.env` en la raiz
+4.  Se debe configurar las variables de entorno en un archivo `.env` en la raiz
     del proyecto. (opcional si va usar dotenv).
 
 #### Crear base de datos con el script
 
-1. se debe configurar las variables de entorno en un archivo `.env` en la raiz
+1. Se debe configurar las variables de entorno en un archivo `.env` en la raiz
    del proyecto. (opcional si va usar dotenv).
-2. se debe ejecutar el script `query.sql` en la base de datos.
+2. Se debe ejecutar el script `query.sql` en la base de datos.
 
 **Ubicacion Script**
 
@@ -64,7 +64,11 @@ crud_node_01
     │   └── query.sql # script para crear la base de datos y las tablas
 ```
 
-### 4. Estrucutra del proyecto
+### 4. Estrucutra del proyecto:
+
+El proyecto tiene la siguiente estructura de archivos y directorios, si no se
+creo de esta manera fallaste como programador. :smile: intenta de nuevo y sigue
+las instrucciones.
 
 ```bash
 WorkSpace/

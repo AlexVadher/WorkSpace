@@ -37,13 +37,13 @@ npm i -D dotenv # para variables de entorno en .env (opcional)
 #### Crear base de datos Manualmente:
 
 1.  Se debe crear una base de datos en MySQL o MariaDB.
-2.  Se debe crear una tabla llamada `empleados` con los siguientes campos:
+2.  Se debe crear una tabla llamada `Personas` con los siguientes campos:
     -   id (int, autoincremental, primary key)
     -   name (varchar(50))
     -   lastname (varchar(50))
     -   age (int)
     -   tipo_persona_id (int, foreign key)
-3.  Se debe crear una tabla llamada `tipo_persona` con los siguientes campos:
+3.  Se debe crear una tabla llamada `Tipos_Personas` con los siguientes campos:
     -   id (int, autoincremental, primary key)
     -   tipo (varchar(50))
 4.  Se debe configurar las variables de entorno en un archivo `.env` en la raiz
@@ -67,8 +67,8 @@ crud_node_01
 ### 4. Estrucutra del proyecto:
 
 El proyecto tiene la siguiente estructura de archivos y directorios, si no se
-creo de esta manera fallaste como programador. :smile: intenta de nuevo y sigue
-las instrucciones.
+creo de esta manera fallaste como programador. Intenta de nuevo y sigue las
+instrucciones. :satisfied: :v:
 
 ```bash
 WorkSpace/

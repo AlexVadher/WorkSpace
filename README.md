@@ -70,33 +70,48 @@ creo de esta manera fallaste como programador. Intenta de nuevo y sigue las
 instrucciones. :satisfied: :v:
 
 ```bash
-WorkSpace/
-└── crud_node_01 # proyecto node.js.
+WorkSpace
+│
+├── crud_node_01 # proyecto node.js.
+│   ├──── node_modules # dependencias del proyecto.
+│   ├──── src # directorio de la aplicacion.
+│   │     │
+│   │     ├── database # directorio de la base de datos.
+│   │     │   └── query.sql # script para crear la base de datos y las tablas.
+│   │     │
+│   │     ├── public # archivos estaticos (css, js, imagenes).
+│   │     │   └── img # imagenes.
+│   │     │       └── node.png # imagen logo node.js,
+│   │     │
+│   │     ├── routes # definicion de rutas.
+│   │     │   └── personas.routes.js # rutas de la aplicacion.
+│   │     │
+│   │     ├── views # vistas de handlebars (html).
+│   │     │    ├── index.hbs # vista principal.
+│   │     │    │
+│   │     │    ├── layouts # plantillas de handlebars.
+│   │     │    │   └── main.hbs # plantilla principal.
+│   │     │    │
+│   │     │    ├── partials # secciones de las vistas.
+│   │     │    │   └── navigation.hbs # barra de navegacion.
+│   │     │    │
+│   │     │    └── personas # vistas de personas.
+│   │     │        ├── add.hbs # formulario de agregar.
+│   │     │        ├── edit.hbs # formulario de editar.
+│   │     │        └── list.hbs # lista de personas.
+│   │     │
+│   │     │
+│   │     │
+│   │     ├── database.js # archivo de configuracion de la base de datos.
+│   │     └── index.js # punto de entrada de la aplicacion.
+│   │
+│   │
 │   ├── .env # Variables de entorno (base de datos).
 │   ├── .gitignore # archivos y directorios ignorados por git.
 │   ├── package.json # dependencias y scripts de npm, nombre del proyecto y version.
-│   ├── package-lock.json # dependencias y scripts de npm bloqueados.
-│   └── src # directorio de la aplicacion.
-│       ├── node_modules # dependencias del proyecto.
-│       ├── database # directorio de la base de datos.
-│       │   └── query.sql # script para crear la base de datos y las tablas.
-│       ├── database.js # archivo de configuracion de la base de datos.
-│       ├── index.js # punto de entrada de la aplicacion.
-│       ├── public # archivos estaticos (css, js, imagenes).
-│       │   └── img # imagenes.
-│       │       └── node.png # imagen logo node.js,
-│       ├── routes # definicion de rutas.
-│       │   └── personas.routes.js # rutas de la aplicacion.
-│       └── views # vistas de handlebars (html).
-│           ├── index.hbs # vista principal.
-│           ├── layouts # plantillas de handlebars.
-│           │   └── main.hbs # plantilla principal.
-│           ├── partials # secciones de las vistas.
-│           │   └── navigation.hbs # barra de navegacion.
-│           └── personas # vistas de personas.
-│               ├── add.hbs # formulario de agregar.
-│               ├── edit.hbs # formulario de editar.
-│               └── list.hbs # lista de personas.
+│   └── package-lock.json # dependencias y scripts de npm bloqueados.
+│
+├── guias # guias de project.
 └── README.md # instrucciones de configuracion y uso.
 ```
 

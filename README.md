@@ -27,7 +27,7 @@ zip.
 ```bash
 npm i express express-handlebars morgan mysql2 # dependencias del proyecto (obligatorias).
 
-nppm i nodemon -D # para reiniciar el servidor automaticamente (opcional).
+npm i nodemon -D # para reiniciar el servidor automaticamente (opcional).
 
 npm i -D dotenv # para variables de entorno en .env (opcional).
 ```
